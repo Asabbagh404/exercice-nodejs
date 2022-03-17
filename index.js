@@ -1,6 +1,9 @@
 var express = require("express"),
     bodyParser = require("body-parser"),
     server = express();
+const {connect} = require("./mongodb");
+connect()
+
 
 //body parser for parsing request body
 server.use(bodyParser.json());

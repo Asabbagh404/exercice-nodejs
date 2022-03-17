@@ -1,19 +1,25 @@
 {
-  "name": "exercice-nodejs",
+  "name": "testcli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node index.js"
+  "main": "bin/index.js",
+  "bin": {
+    "test": "./bin/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Asabbagh404/exercice-nodejs.git"
-  },
+  "keywords": [
+    "test",
+    "cli"
+  ],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Asabbagh404/exercice-nodejs/issues"
+  "dependencies": {
+    "chalk": "4.1.2",
+    "commander": "^9.0.0",
+    "inquirer": "^8.2.0",
+    "yargs": "^17.3.1"
   },
-  "homepage": "https://github.com/Asabbagh404/exercice-nodejs#readme"
+  "engines": {
+    "node": "16.14",
+    "npm": "8.3.1"
+  }
 }

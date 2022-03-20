@@ -1,0 +1,6 @@
+<%- include('../p_header') %>
+<% articles.forEach((article) => { %>
+    <%- include(`p_card-article`, {article}) %>
+<% }); %>
+
+<%- include('../p_footer') %>

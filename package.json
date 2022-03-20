@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "nodemon src/main.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Asabbagh404/exercice-nodejs/issues"
   },
-  "homepage": "https://github.com/Asabbagh404/exercice-nodejs#readme"
+  "homepage": "https://github.com/Asabbagh404/exercice-nodejs#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
 }
